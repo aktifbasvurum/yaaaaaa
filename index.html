@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siteniz</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+            width: 100%;
+        }
+        #frame {
+            width: 100%;
+            height: 100vh;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <iframe id="frame" src=""></iframe>
+    <script>
+       
+        document.getElementById('frame').src = atob('aHR0cHM6Ly9zaXRlLW9wZW5lci0xOC5lbWVyZ2VudC5ob3N0Lw==');
+    </script>
+</body>
+</html>
